@@ -11,5 +11,5 @@ git init
 git add -A
 git commit -m 'deploy'
 git push -f git@github.com:ianherri/ianherri.github.io
-.git master:gh-pages
+.git main:gh-pages
 cd -
