@@ -7,9 +7,13 @@ npm run build
 cd dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
+
+echo > .nojekyll
+
+
 git init
+git checkout -B main
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:ianherri/ianherri.github.io
-.git main:gh-pages
+git push -f git@github.com:ianherri/ianherri.github.io.git main
 cd -
