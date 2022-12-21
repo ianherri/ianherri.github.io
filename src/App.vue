@@ -1,91 +1,49 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import { RouterView } from "vue-router";
+
+window.onscroll = function () {
+  const nav = document.querySelector("nav");
+  if (window.pageYOffset > 0) {
+    nav.classList.add("nav-bounce");
+  } else {
+    nav.classList.remove("nav-bounce");
+  }
+};
 </script>
 
 <template>
-  <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+  <div class="bg-slate-800 w-screen h-screen px-6 py-6">
+    <header class="justify-center flex">
+      <nav class="nav-bar flex flex-row fixed z-50 mx-auto">
+        <a class="mx-2" href="https://www.truefornow.com/" target="_blank"
+          ><img class="w-6" src="./assets/pen.png"
+        /></a>
+        <a class="mx-2" href="https://github.com/ianherri/" target="_blank"
+          ><img class="w-6" src="./assets/github-mark-white.png"
+        /></a>
+        <a class="mx-2" href="https://twitter.com/__ianrush/" target="_blank"
+          ><img
+            class="w-6"
+            src="./assets/Twitter social icons - circle - white.png"
+        /></a>
       </nav>
-    </div>
-  </header>
-
-  <RouterView />
+    </header>
+    <RouterView />
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
+<style>
+.nav-bounce {
+  animation: nav-bounce 0.5s ease-in-out;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+@keyframes nav-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
   }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
+  50% {
+    transform: translateY(-8px);
   }
 }
 </style>
