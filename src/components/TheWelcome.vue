@@ -1,25 +1,24 @@
 <script setup>
-import { onMounted } from "vue";
-onMounted(() => {
-  const h1 = document.querySelector("h1");
-  // Wait for the component to mount, then add the "typing" class to the heading to start the animation
-  h1.classList.add("typing");
+defineProps({
+  heading: String,
+  subHeading: String,
+  content: String,
 });
 </script>
 
 <template>
-  <div class="flex items-center justify-center mt-48">
-    <div class="text-white text-center max-w-prose">
-      <h1 class="animate-fade-in-one text-5xl font-bold">Hi!!</h1>
-      <p class="animate-fade-in-two text-xl font-light leading-loose">
-        He studied scientific truths, then became upset even more by the
-        apparent cause of their temporal condition. It looked as though the time
-        spans of scientific truths are an inverse function of the intensity of
-        scientific effort...The more you look, the more you see... What this
-        means logically is that as you try to move toward unchanging truth
-        through the application of scientific method, you actually do not move
-        toward it at all. You move away from it! It is your application of
-        scientific method that is causing it to change!
+  <div class="flex items-center justify-center mt-4">
+    <div class="text-white text-center max-w-lg px-10">
+      <h1 class="animate-fade-in-one text-5xl font-bold font-serif">
+        {{ heading }}
+      </h1>
+      <h2 class="animate-fade-in-one text-2xl font-extralight mt-10">
+        {{ subHeading }}
+      </h2>
+      <p
+        class="animate-fade-in-two text-lg font-light leading-loose mt-10 bg-wite"
+      >
+        {{ content }}
       </p>
     </div>
   </div>
@@ -44,27 +43,6 @@ onMounted(() => {
   }
   100% {
     opacity: 1;
-  }
-}
-
-.animate-typing {
-  /* Set the width of the heading to 0 and hide the overflow to hide the text initially */
-  width: 0;
-  overflow: hidden;
-}
-
-/* Add the typing animation */
-.animate-typing.typing {
-  animation: typing 1s steps(30, end);
-  width: auto;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
   }
 }
 </style>
