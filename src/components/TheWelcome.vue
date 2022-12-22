@@ -9,14 +9,14 @@ defineProps({
 <template>
   <div class="flex items-center justify-center mt-4">
     <div class="text-white text-center max-w-lg px-10">
-      <h1 class="animate-fade-in-one text-5xl font-bold font-serif">
+      <h1 class="animate-fade-in-one text-5xl font-bold font-serif mt-4">
         {{ heading }}
       </h1>
-      <h2 class="animate-fade-in-one text-2xl font-extralight mt-10">
+      <h2 class="animate-fade-in-one text-2xl font-extralight mt-4">
         {{ subHeading }}
       </h2>
       <p
-        class="animate-fade-in-two text-lg font-light leading-loose mt-10 bg-wite"
+        class="animate-fade-in-two text-lg font-extralight leading-loose bg-wite mt-4"
       >
         {{ content }}
       </p>

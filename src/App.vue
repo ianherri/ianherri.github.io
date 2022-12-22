@@ -66,12 +66,10 @@ const noOverlap = "";
         ><img class="w-6" src="./assets/twitter-logo.png"
       /></a>
     </nav>
-
     <div class="welcome-component flex-col mt-24">
       <RouterView />
     </div>
   </div>
-  <div class="footer w-screen h-16"></div>
 </template>
 
 <style>
