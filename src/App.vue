@@ -45,28 +45,31 @@ const noOverlap = "";
       :class="navbarOverlapsHeader ? overlap : noOverlap"
     >
       <a
-        class="mx-2"
+        class="mx-4 flex flex-col items-center text-white"
         id="nav-blog"
         href="https://www.truefornow.com/"
         target="_blank"
-        ><img class="w-6" src="./assets/pen.png"
-      /></a>
+        ><img class="w-6 h-6" src="./assets/pen.png" />
+        <div class="tool-tip">blog</div></a
+      >
       <a
-        class="mx-2"
+        class="mx-4 flex flex-col items-center"
         id="nav-gh"
         href="https://github.com/ianherri/"
         target="_blank"
-        ><img class="w-6" src="./assets/github-mark-white.png"
-      /></a>
+        ><img class="w-6 h-6" src="./assets/github-mark-white.png" />
+        <div class="tool-tip">github</div></a
+      >
       <a
-        class="mx-2"
+        class="mx-4 flex flex-col items-center"
         id="nav-twitter"
         href="https://twitter.com/__ianrush/"
         target="_blank"
-        ><img class="w-6" src="./assets/twitter-logo.png"
-      /></a>
+        ><img class="w-6 h-6" src="./assets/twitter-logo.png" />
+        <div class="tool-tip">twitter</div></a
+      >
     </nav>
-    <div class="welcome-component flex-col mt-24">
+    <div class="welcome-component mt-24">
       <RouterView />
     </div>
   </div>
@@ -89,7 +92,7 @@ const noOverlap = "";
 
 .bg-grow {
   /* set the initial background color and size */
-  background-color: rgb(1, 47, 9);
+  background-color: rgb(0, 24, 16);
 
   /* animate the background color and size */
   animation: grow 0.75s ease-out;
@@ -101,7 +104,11 @@ const noOverlap = "";
     width: 0;
   }
   to {
-    background-color: rgb(1, 47, 9);
+    background-color: rgb(0, 24, 16);
   }
+}
+
+.tool-tip {
+  @apply hidden;
 }
 </style>

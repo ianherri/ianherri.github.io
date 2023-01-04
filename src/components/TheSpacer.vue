@@ -1,7 +1,16 @@
 <template>
-  <div
-    class="spacer container border border-dotted h-px my-8 w-11/12 mx-auto px-4"
-  ></div>
+  <div class="spacer h-px my-8 w-11/12 mx-auto px-8"></div>
 </template>
 
-<style></style>
+<style>
+.spacer {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 25%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 4px 1px;
+  background-repeat: repeat-x;
+}
+</style>

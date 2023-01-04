@@ -1,17 +1,25 @@
 <script setup>
-import AboutComp from "../components/AboutComp.vue";
-import TheWelcome from "../components/TheWelcome.vue";
+import QuoteComp from "../components/QuoteComp.vue";
+import PrimaryHeading from "../components/PrimaryHeading.vue";
 import TheSpacer from "../components/TheSpacer.vue";
+import ExperienceComp from "../components/ExperienceComp.vue";
+// import SkillsComp from "../components/SkillsComp.vue";
+import SecondaryHeading from "../components/SecondaryHeading.vue";
 </script>
 
 <template>
-  <TheWelcome
+  <PrimaryHeading
     heading="Ian Herrington"
-    subHeading="Software developer, writer, reader"
+    subHeading="Software engineer and bibliophile"
     content="Austin, TX"
   />
+
   <TheSpacer />
-  <AboutComp />
+  <QuoteComp />
   <TheSpacer />
+  <SecondaryHeading text="Experience" />
+  <ExperienceComp />
+  <TheSpacer />
+
   <div class="footer w-screen h-16"></div>
 </template>

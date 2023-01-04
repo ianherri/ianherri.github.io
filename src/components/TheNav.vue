@@ -4,6 +4,7 @@ import { onMounted, onBeforeUnmount, ref } from "vue";
 onMounted(() => {
   window.addEventListener("scroll", handleScroll);
 });
+
 onBeforeUnmount(() => {
   window.removeEventListener("scroll", handleScroll);
 });
