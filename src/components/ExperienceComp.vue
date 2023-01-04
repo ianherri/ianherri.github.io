@@ -3,9 +3,9 @@ import data from "../../data/experience.json";
 </script>
 
 <template>
-  <div class="text-white max-w-lg mx-auto px-10">
+  <div class="text-white max-w-lg mx-auto px-10 pb-2">
     <div class="flex flex-col text-white" v-for="item in data" :key="item.id">
-      <div class="experience-heading py-4">
+      <div class="experience-heading pb-4">
         <a :href="item.url" target="_blank">
           <h2 class="text-2xl underline underline-offset-4 py-1">
             {{ item.company }}

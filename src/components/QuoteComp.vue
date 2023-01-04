@@ -19,7 +19,7 @@ onMounted(() => {
 <template>
   <a :href="link" target="_blank">
     <div
-      class="about container text-center max-w-lg text-white mx-auto px-4 py-2"
+      class="about container text-center max-w-lg text-white mx-auto px-10 py-2"
     >
       <p class="text-md font-thin italic">"{{ content }}"</p>
       <p class="text-md text-right font-thin mt-4">– {{ author }}</p>

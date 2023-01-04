@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="text-white max-w-lg mx-auto px-10">
+  <div class="text-white max-w-lg mx-auto px-10 pb-4">
     <h1 class="animate-fade-in-one text-3xl font-bold font-serif mt-4">
       {{ text }}
     </h1>

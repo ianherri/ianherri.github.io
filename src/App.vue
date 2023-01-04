@@ -14,16 +14,6 @@ const navbarOverlapsHeader = ref(false);
 function handleScroll() {
   // Get the bounding rectangles for the navbar and header elements
   const nav = document.querySelector(".nav-bar");
-  const welcomeComponent = document.querySelector(".welcome-component");
-  const navbarRect = nav.getBoundingClientRect();
-  const welcomeRect = welcomeComponent.getBoundingClientRect();
-  // Check if the navbar overlaps with the header
-
-  if (navbarRect.bottom > welcomeRect.top) {
-    nav.classList.add("bg-grow");
-  } else {
-    nav.classList.remove("bg-grow");
-  }
 
   if (window.pageYOffset > 0) {
     nav.classList.add("nav-bounce");
@@ -31,9 +21,6 @@ function handleScroll() {
     nav.classList.remove("nav-bounce");
   }
 }
-
-const overlap = "bg-teal-900";
-const noOverlap = "";
 </script>
 
 <template>
@@ -41,7 +28,7 @@ const noOverlap = "";
     class="main-container w-screen min-h-full items-center flex flex-col px-6"
   >
     <nav
-      class="nav-bar flex flex-row fixed z-50 justify-center w-full py-4 transition-colors"
+      class="nav-bar flex flex-row fixed z-50 justify-center w-full py-4"
       :class="navbarOverlapsHeader ? overlap : noOverlap"
     >
       <a
@@ -80,6 +67,10 @@ const noOverlap = "";
   animation: nav-bounce 0.5s ease-in-out;
 }
 
+.nav-bar {
+  background-color: rgb(2, 27, 11);
+}
+
 @keyframes nav-bounce {
   0%,
   100% {
@@ -87,24 +78,6 @@ const noOverlap = "";
   }
   50% {
     transform: translateY(-8px);
-  }
-}
-
-.bg-grow {
-  /* set the initial background color and size */
-  background-color: rgb(0, 24, 16);
-
-  /* animate the background color and size */
-  animation: grow 0.75s ease-out;
-}
-
-@keyframes grow {
-  from {
-    background-color: none;
-    width: 0;
-  }
-  to {
-    background-color: rgb(0, 24, 16);
   }
 }
 

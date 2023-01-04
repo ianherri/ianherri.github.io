@@ -1,30 +1,17 @@
 <script setup>
-import data from "../../data/quotes.json";
-
-import { onMounted, ref } from "vue";
-
-const author = ref("");
-const content = ref("");
-const link = ref("");
-
-onMounted(() => {
-  const lengthData = data.length;
-  const randEntry = Math.floor(Math.random() * lengthData);
-  author.value = data[randEntry].author;
-  content.value = data[randEntry].content;
-  link.value = data[randEntry].link;
-});
+import skills from "../../data/skills.json";
 </script>
 
 <template>
-  <a :href="link" target="_blank">
+  <div class="flex flex-row gap-2 flex-wrap max-w-lg mx-auto px-10">
     <div
-      class="about container text-center max-w-lg text-white mx-auto px-4 py-2"
+      class="text-white text-sm font-extralight border border-white px-4 py-0.5 rounded-2xl"
+      v-for="item in skills.computer_skills"
+      :key="item.id"
     >
-      <p class="text-md font-thin italic">"{{ content }}"</p>
-      <p class="text-md text-right font-thin mt-4">– {{ author }}</p>
+      {{ item }}
     </div>
-  </a>
+  </div>
 </template>
 
 <style></style>

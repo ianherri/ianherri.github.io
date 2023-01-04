@@ -5,6 +5,7 @@ import TheSpacer from "../components/TheSpacer.vue";
 import ExperienceComp from "../components/ExperienceComp.vue";
 // import SkillsComp from "../components/SkillsComp.vue";
 import SecondaryHeading from "../components/SecondaryHeading.vue";
+import SkillsComp from "../components/SkillsComp.vue";
 </script>
 
 <template>
@@ -20,6 +21,8 @@ import SecondaryHeading from "../components/SecondaryHeading.vue";
   <SecondaryHeading text="Experience" />
   <ExperienceComp />
   <TheSpacer />
+  <SecondaryHeading text="Skills" />
+  <SkillsComp />
 
   <div class="footer w-screen h-16"></div>
 </template>
