@@ -1,5 +1,5 @@
 <template>
-  <div class="spacer h-px my-8 max-w-lg mx-auto px-8"></div>
+  <div class="spacer h-px my-8 max-w-lg mx-auto px-10"></div>
 </template>
 
 <style>
