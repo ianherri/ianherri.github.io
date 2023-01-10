@@ -1,10 +1,12 @@
 [
   {
     "job_title": "Co-Founder",
+    "id": 0,
     "company": "Local Goods, Inc",
     "url": "https://heythanks.io/",
     "location": "Austin, TX",
     "years": "2021 - present",
+    "visible": false,
     "description": [
       "Conduct primary research to identify market opportunity for the first product, HeyThanks, which lets online businesses accept tips for their fulfillment employees.",
       "Design frontend application in Figma using Shopify’s React components, and prioritized features for MVP.",
@@ -14,10 +16,12 @@
   },
   {
     "job_title": "Product Manager, Hardware/Software",
+    "id": 1,
     "company": "SimpliSafe Inc.",
     "url": "https://simplisafe.com/",
     "location": "Boston, MA",
     "years": "2019 - 2021",
+    "visible": false,
     "description": [
       "Created a beta program for firmware releases, enrolled 50 participants. Designed testing framework and feedback mechanism.",
       "Managed all inbound bug and feature requests, worked with Engineering Management to prioritize via weekly grooming.",
@@ -27,10 +31,12 @@
   },
   {
     "job_title": "Associate Product Manager",
+    "id": 2,
     "company": "SimpliSafe Inc.",
     "url": "https://simplisafe.com/",
     "location": "Boston, MA",
     "years": "August 2019 - November 2020",
+    "visible": false,
     "description": [
       "Upgraded ~500K subscribers to a next gen cellular chip, successfully avoiding massive churn risk, via comprehensive outbound email, call center, and in-app communication scheme.",
       "Updated replacement order handling with new software features that saved 20% of packages from being mislabeled; saving over $250K annually in re-shipping expenses.",
@@ -39,10 +45,12 @@
   },
   {
     "job_title": "Business Operations Associate",
+    "id": 3,
     "company": "Lovepop Inc.",
     "url": "https://www.lovepop.com/",
     "location": "Boston, MA",
     "years": "January 2019 - June 2019",
+    "visible": false,
     "description": [
       "Created dashboards w/ SQL  to track business unit KPIs (e.g. AOV, CAC, Repeat Rate).",
       "Researched repeat-purchasing behavior by conducting 40+ interviews, defined several product improvement opportunities including: less expensive product, loyalty program, direct mail offering."

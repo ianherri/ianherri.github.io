@@ -26,5 +26,4 @@ import FooterComp from "../components/FooterComp.vue";
   <SkillsComp />
   <TheSpacer />
   <FooterComp />
-  <div class="footer w-screen h-16"></div>
 </template>
