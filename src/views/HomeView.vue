@@ -6,6 +6,8 @@ import ExperienceComp from "../components/ExperienceComp.vue";
 // import SkillsComp from "../components/SkillsComp.vue";
 import SecondaryHeading from "../components/SecondaryHeading.vue";
 import SkillsComp from "../components/SkillsComp.vue";
+
+import FooterComp from "../components/FooterComp.vue";
 </script>
 
 <template>
@@ -14,7 +16,6 @@ import SkillsComp from "../components/SkillsComp.vue";
     subHeading="Software engineer and bibliophile"
     content="Austin, TX"
   />
-
   <TheSpacer />
   <QuoteComp />
   <TheSpacer />
@@ -23,6 +24,7 @@ import SkillsComp from "../components/SkillsComp.vue";
   <TheSpacer />
   <SecondaryHeading text="Skills" />
   <SkillsComp />
-
+  <TheSpacer />
+  <FooterComp />
   <div class="footer w-screen h-16"></div>
 </template>

@@ -1,6 +1,8 @@
 <template>
-  <div class="spacer max-w-full py-12 flex justify-center">
-    <div class="spacer-line self-auto"></div>
+  <div
+    class="footer text-white text-sm font-extralight flex justify-center max-w-full py-16"
+  >
+    © 2023 I.R. Herrington
   </div>
 </template>
 

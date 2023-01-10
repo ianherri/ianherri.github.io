@@ -1,6 +1,8 @@
 # personal-site
 
-This template should help get you started developing with Vue 3 in Vite.
+The working directory is stored in the branch gh-pages. Work with that directory as normal.
+
+To deploy, run npm run deploy. This will build the app and push it to the main branch.
 
 ## Recommended IDE Setup
 

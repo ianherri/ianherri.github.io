@@ -80,21 +80,13 @@ const noOverlap = "";
   }
 }
 
-.bg-grow {
-  /* set the initial background color and size */
-  background-color: rgb(1, 47, 9);
-
-  /* animate the background color and size */
-  animation: grow 0.75s ease-out;
-}
-
-@keyframes grow {
-  from {
-    background-color: none;
-    width: 0;
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
   }
-  to {
-    background-color: rgb(1, 47, 9);
+  50% {
+    transform: translateY(-10px);
   }
 }
 </style>
