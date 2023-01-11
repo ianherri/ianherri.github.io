@@ -8,6 +8,7 @@ import SecondaryHeading from "../components/SecondaryHeading.vue";
 import SkillsComp from "../components/SkillsComp.vue";
 
 import FooterComp from "../components/FooterComp.vue";
+import BooksSection from "../components/BooksSection.vue";
 </script>
 
 <template>
@@ -25,6 +26,8 @@ import FooterComp from "../components/FooterComp.vue";
   <SecondaryHeading text="Skills" />
   <SkillsComp />
   <TheSpacer />
+  <SecondaryHeading text="Books" />
+  <BooksSection />
+  <TheSpacer />
   <FooterComp />
-
 </template>

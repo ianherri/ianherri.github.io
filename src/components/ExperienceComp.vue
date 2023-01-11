@@ -39,7 +39,7 @@ function handleShowHideDetail(item) {
 
       <div :class="item.visible ? 'accordion-slide' : 'accordion'">
         <div
-          class="text-sm py-1"
+          class="text-sm font-light py-1"
           v-for="bullet in item.description"
           :key="bullet.id"
         >

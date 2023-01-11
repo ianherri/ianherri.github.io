@@ -1,0 +1,231 @@
+[
+  {
+    "year": "2021",
+    "books": [
+      {
+        "title": "Crime and Punishment",
+        "link": "https://www.amazon.com/Crime-Punishment-Fyodor-Dostoyevsky/dp/0486415872",
+        "author": "Fyodor Dostoevesky",
+        "year_read": "2021"
+      },
+      {
+        "title": "Zen and the Art of Motorcycle Maintenance",
+        "link": "https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469",
+        "author": "Robert M. Pirsig",
+        "year_read": "2021"
+      },
+      {
+        "title": "The Righteous Mind",
+        "link": "https://www.amazon.com/Righteous-Mind-Divided-Politics-Religion/dp/0307455777",
+        "author": "Jonathan Haidt",
+        "year_read": "2021"
+      },
+      {
+        "title": "Tribe",
+        "link": "https://www.amazon.com/Tribe-Homecoming-Belonging-Sebastian-Junger/dp/1455566381",
+        "author": "Sebastian Junger",
+        "year_read": "2021"
+      },
+      {
+        "title": "The Art of Learning",
+        "link": "https://www.amazon.com/Art-Learning-Journey-Optimal-Performance/dp/0743277465",
+        "author": "Josh Waitzkin",
+        "year_read": "2021"
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "books": [
+      {
+        "title": "Dominion",
+        "link": "https://www.amazon.com/Dominion-Christian-Revolution-Remade-World/dp/0465093507",
+        "author": "Tom Holland",
+        "year_read": "2023"
+      },
+      {
+        "title": "On Liberty",
+        "link": "https://www.amazon.com/Liberty-John-Stuart-Mill/dp/1548076058",
+        "author": "John Stuart Mill",
+        "year_read": "2023"
+      },
+      {
+        "title": "The Swerve: How the World Became Modern",
+        "link": "https://www.amazon.com/Swerve-How-World-Became-Modern/dp/0393343405",
+        "author": "Stephen Greenblatt",
+        "year_read": "2023"
+      }
+    ]
+  },
+
+  {
+    "year": "2022",
+    "books": [
+      {
+        "title": "Scarcity and Modernity",
+        "link": "https://www.amazon.com/Scarcity-Modernity-Routledge-Library-Editions/dp/1138081795",
+        "author": "Nicholas Xenos",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Evolution of Everything",
+        "link": "https://www.amazon.com/Evolution-Everything-How-Ideas-Emerge/dp/0062296019",
+        "author": "Matt Ridley",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Ancient City",
+        "link": "https://www.amazon.com/Ancient-City-Religion-Institutions-Greece/dp/0801823048",
+        "author": "Fustel De Coulanges",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Brothers Karamazov",
+        "link": "https://www.amazon.com/Brothers-Karamazov-Fyodor-Dostoevsky/dp/0374528373",
+        "author": "Fyodor Dostoevesky",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Open Society and Its Enemies",
+        "link": "https://www.amazon.com/Open-Society-Its-Enemies-One/dp/0691158134",
+        "author": "Karl Popper",
+        "year_read": "2022"
+      },
+      {
+        "title": "Cities and the Wealth of Nations",
+        "link": "https://www.amazon.com/Cities-Wealth-Nations-Principles-Economic/dp/0394729110",
+        "author": "Jane Jacobs",
+        "year_read": "2022"
+      },
+      {
+        "title": "Antifragile: Things That Gain from Disorder",
+        "link": "https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680",
+        "author": "Nassim Nicholas Taleb",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Mystery of Capital: Why Capitalism Triumphs in the West and Fails Everywhere Else",
+        "link": "https://www.amazon.com/Mystery-Capital-Capitalism-Triumphs-Everywhere/dp/0465016154",
+        "author": "Hernando de Soto",
+        "year_read": "2022"
+      },
+
+      {
+        "title": "The Selfish Gene",
+        "link": "https://www.amazon.com/Selfish-Gene-Popular-Science/dp/0192860925",
+        "author": "Richard Dawkins",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Elephant in the Brain: Hidden Motives in Everyday Life",
+        "link": "https://www.amazon.com/Elephant-Brain-Hidden-Motives-Everyday/dp/0190495995",
+        "author": "Robin Hanson and Kevin Simler",
+        "year_read": "2022"
+      },
+      {
+        "title": "Patterns of Discovery: An Inquiry into the Conceptual Foundations of Science",
+        "link": "https://www.amazon.com/Patterns-Discovery-Inquiry-Conceptual-Foundations/dp/0521092612",
+        "author": "Norwood Russell Hanson",
+        "year_read": "2022"
+      },
+      {
+        "title": "The End of History and the Last Man",
+        "link": "https://www.amazon.com/End-History-Last-Man/dp/0743284550",
+        "author": "Francis Fukuyama",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Origins of Virtue: Human Instincts and the Evolution of Cooperation",
+        "link": "https://www.amazon.com/Origins-Virtue-Instincts-Evolution-Cooperation/dp/0140264450",
+        "author": "Matt Ridley",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Meaning of It All: Thoughts of a Citizen-Scientist",
+        "link": "https://www.amazon.com/Meaning-All-Thoughts-Citizen-Scientist/dp/0465023940",
+        "author": "Richard Feynman",
+        "year_read": "2022"
+      },
+      {
+        "title": "Science and Human Values",
+        "link": "https://www.amazon.com/Science-Human-Values-Jacob-Bronowski/dp/0060972815",
+        "author": "Jacob Bronowski",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Captive Mind",
+        "link": "https://www.amazon.com/Captive-Mind-Czeslaw-Milosz/dp/0679728562",
+        "author": "Czesław Miłosz",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Protestant Ethic and the Spirit of Capitalism",
+        "link": "https://www.amazon.com/Protestant-Ethic-Spirit-Capitalism/dp/1603866043",
+        "author": "Max Weber",
+        "year_read": "2022"
+      },
+      {
+        "title": "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets",
+        "link": "https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219",
+        "author": "Nassim Nicholas Taleb",
+        "year_read": "2022"
+      },
+      {
+        "title": "Seeing like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+        "link": "https://www.amazon.com/Seeing-like-State-Certain-Condition/dp/0300078153",
+        "author": "James Scott",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Master and His Emissary: The Divided Brain and the Making of the Western World",
+        "link": "https://www.amazon.com/Master-His-Emissary-Divided-Western/dp/0300188374",
+        "author": "Iain McGilchrist",
+        "year_read": "2022"
+      },
+      {
+        "title": "A Conflict of Visions: Ideological Origins of Political Struggles",
+        "link": "https://www.amazon.com/Conflict-Visions-Ideological-Political-Struggles/dp/0465002056",
+        "author": "Thomas Sowell",
+        "year_read": "2022"
+      },
+      {
+        "title": "Civilization: The West and the Rest",
+        "link": "https://www.amazon.com/Civilization-West-Rest-Niall-Ferguson/dp/0143122061",
+        "author": "Niall Ferguson",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Great Contraction, 1929-1933",
+        "link": "https://www.amazon.com/Great-Contraction-1929-1933-Princeton-Editions/dp/0691137943",
+        "author": "Milton Friedman",
+        "year_read": "2022"
+      },
+
+      {
+        "title": "Brave New World",
+        "link": "https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523",
+        "author": "Aldous Huxley",
+        "year_read": "2022"
+      },
+
+      {
+        "title": "The City of Man",
+        "link": "https://www.amazon.com/City-Man-Pierre-Manent/dp/0691050252",
+        "author": "Pierre Manent",
+        "year_read": "2022"
+      },
+      {
+        "title": "The Knowledge Machine: How Irrationality Created Modern Science",
+        "link": "https://www.amazon.com/Knowledge-Machine-Irrationality-Created-Science/dp/1631491377",
+        "author": "Michael Strevens",
+        "year_read": "2022"
+      },
+      {
+        "title": "A New World Begins: A History of the French Revolution",
+        "link": "https://www.amazon.com/New-World-Begins-History-Revolution/dp/0465096662",
+        "author": "Jeremy D. Popkin",
+        "year_read": "2022"
+      }
+    ]
+  }
+]

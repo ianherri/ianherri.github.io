@@ -2,8 +2,9 @@
   <div
     class="footer text-white text-sm font-extralight flex flex-col justify-center align-center items-center gap-4 w-screen py-32"
   >
-    © 2023 I.R. Herrington
+    © 2023 Ian R. Herrington
     <img class="h-8" src="../assets/signature.png" />
+    <p>contact: ianherri20 [at] gmail [dot] com</p>
   </div>
 </template>
 
