@@ -26,4 +26,5 @@ import FooterComp from "../components/FooterComp.vue";
   <SkillsComp />
   <TheSpacer />
   <FooterComp />
+
 </template>
