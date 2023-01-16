@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Notion Reminders App",
+    "link": "https://github.com/ianherri/notion_app",
+    "description": "Reminders app texts me daily snippets of book notes I've previously recorded in my Notion application to aid in spaced repetition.",
+    "stack": [
+      "Heroku",
+      "Twilio SMS Service",
+      "Axios",
+      "Express.js",
+      "MongoDB",
+      "Node.js",
+      "Notion API"
+    ]
+  },
+  {
+    "title": "Retreev: Semantic Search Writing Aid",
+    "link": "https://github.com/ianherri/retreev",
+    "description": "App which retrieves semantically similar passages from books I've read when prompted from within a Notion document.",
+    "stack": [
+      "Axios",
+      "Express.js",
+      "Flask",
+      "Python3",
+      "Sentence Transformer (Python Library)",
+      "MongoDB",
+      "Milvus DB",
+      "Docker",
+      "Node.js",
+      "Notion API"
+    ]
+  },
+  {
+    "title": "Seacoast Technical Partners Static Site",
+    "link": "https://sts-site-79c41.web.app/",
+    "description": "Static marketing site with embedded lead Typeform.",
+    "stack": ["Firebase Hosting", "Vue.js", "Javascript", "CSS", "HTML"]
+  },
+  {
+    "title": "Github Pages Portfolio",
+    "link": "",
+    "description": "My personal portfolio (the site you're on right now).",
+    "stack": ["Github Pages", "Vue.js", "Javascript", "Tailwind.css", "HTML"]
+  },
+  {
+    "title": "Lead Capture Site",
+    "link": "https://read-old-books.web.app/",
+    "description": "Single page application (SPA) built for an Austin based lifestyle brand with a simple lead capture form.",
+    "stack": [
+      "Firebase Hosting",
+      "Firebase Firestore",
+      "Vue.js",
+      "Javascript",
+      "CSS",
+      "HTML"
+    ]
+  }
+]

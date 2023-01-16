@@ -1,14 +1,21 @@
 {
   "computer_skills": [
+    "JavaScript",
+    "SQL",
+    "Novice Java",
+    "Intermediate Python",
     "HTML",
     "CSS",
-    "JavaScript",
     "Vue.js",
-    "React",
-    "Intermediate Python",
-    "SQL",
-    "Intermediate Java",
+    "React.js",
+    "Express.js",
+    "Flask",
+    "Tailwind.css",
+    "Twilio",
+    "Git",
+    "Jira (Kanban, Agile)",
+    "Figma",
     "MongoDB",
-    "Express.js"
+    "UI/UX Design"
   ]
 }

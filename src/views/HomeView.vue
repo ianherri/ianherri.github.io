@@ -9,6 +9,7 @@ import SkillsComp from "../components/SkillsComp.vue";
 
 import FooterComp from "../components/FooterComp.vue";
 import BooksSection from "../components/BooksSection.vue";
+import ProjectsSection from "../components/ProjectsSection.vue";
 </script>
 
 <template>
@@ -20,13 +21,16 @@ import BooksSection from "../components/BooksSection.vue";
   <TheSpacer />
   <QuoteComp />
   <TheSpacer />
-  <SecondaryHeading text="Experience" />
+  <SecondaryHeading text="Software Projects" />
+  <ProjectsSection />
+  <TheSpacer />
+  <SecondaryHeading text="Work Experience" />
   <ExperienceComp />
   <TheSpacer />
-  <SecondaryHeading text="Skills" />
+  <SecondaryHeading text="Computer Skills" />
   <SkillsComp />
   <TheSpacer />
-  <SecondaryHeading text="Books" />
+  <SecondaryHeading text="Reading List" />
   <BooksSection />
   <TheSpacer />
   <FooterComp />
