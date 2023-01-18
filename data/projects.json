@@ -1,5 +1,19 @@
 [
   {
+    "title": "SongDuo",
+    "link": "https://songduo-5425e.web.app/",
+    "description": "A social application for writing songs with your friends. (WIP)",
+    "stack": [
+      "Firebase Hosting",
+      "Firebase Auth",
+      "Firebase Firestore",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Vue.js"
+    ]
+  },
+  {
     "title": "Notion Reminders App",
     "link": "https://github.com/ianherri/notion_app",
     "description": "Reminders app texts me daily snippets of book notes I've previously recorded in my Notion application to aid in spaced repetition.",
@@ -7,6 +21,7 @@
       "Heroku",
       "Twilio SMS Service",
       "Axios",
+      "Javascript",
       "Express.js",
       "MongoDB",
       "Node.js",
@@ -22,6 +37,7 @@
       "Express.js",
       "Flask",
       "Python3",
+      "Javascript",
       "Sentence Transformer (Python Library)",
       "MongoDB",
       "Milvus DB",
