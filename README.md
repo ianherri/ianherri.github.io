@@ -2,7 +2,7 @@
 
 The working directory is stored in the branch gh-pages. Work with that directory as normal.
 
-To deploy, run npm run deploy. This will build the app and push it to the main branch.
+To deploy, run `npm run deploy`. This will build the app and push it to the main branch.
 
 ## Recommended IDE Setup
 

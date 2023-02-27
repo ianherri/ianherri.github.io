@@ -1,22 +1,37 @@
 [
   {
-    "job_title": "Co-Founder",
+    "job_title": "Developer",
     "id": 0,
+    "company": "Seacoast Technical Partners",
+    "url": "https://seacoast.partners/",
+    "location": "Austin, TX",
+    "years": "January 2023 - Present",
+    "visible": false,
+    "description": [
+      "Research and gather requirements for web applications starting from rough draft client product requirement proposals.",
+      "Design software architecture and technical specifications to understand full technical scope.",
+      "Design UX/UI in Figma from scratch and share with clients for feedback.",
+      "Deliver and deploy production ready web applications."
+    ]
+  },
+  {
+    "job_title": "Co-Founder",
+    "id": 1,
     "company": "Local Goods, Inc",
     "url": "https://heythanks.io/",
     "location": "Austin, TX",
-    "years": "October 2021 - present",
+    "years": "October 2021 - November 2022",
     "visible": false,
     "description": [
-      "Conduct primary research to identify market opportunity for the first product, HeyThanks, which lets online businesses accept tips for their fulfillment employees.",
-      "Design frontend application in Figma using Shopify’s React components, and prioritized features for MVP.",
+      "Conducted primary research to identify market opportunity for the first product, HeyThanks, which let online businesses accept tips for their fulfillment employees.",
+      "Designed frontend application in Figma using Shopify’s React components, and prioritized features for MVP.",
       "Added to Shopify App Store December 2021, acquired first beta users Jan 2022. Validated product concept and achieved a 7% tip attachment rate on first stores.",
-      "Conduct interviews with beta users to prioritize features including: changes to billing model, customization of app UI."
+      "Conducted interviews with beta users to prioritize features including: changes to billing model, customization of app UI."
     ]
   },
   {
     "job_title": "Product Manager, Hardware/Software",
-    "id": 1,
+    "id": 2,
     "company": "SimpliSafe Inc.",
     "url": "https://simplisafe.com/",
     "location": "Boston, MA",
@@ -31,7 +46,7 @@
   },
   {
     "job_title": "Associate Product Manager",
-    "id": 2,
+    "id": 3,
     "company": "SimpliSafe Inc.",
     "url": "https://simplisafe.com/",
     "location": "Boston, MA",
@@ -45,7 +60,7 @@
   },
   {
     "job_title": "Business Operations Associate",
-    "id": 3,
+    "id": 4,
     "company": "Lovepop Inc.",
     "url": "https://www.lovepop.com/",
     "location": "Boston, MA",
